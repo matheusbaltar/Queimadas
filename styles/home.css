@@ -1,0 +1,46 @@
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 1rem;
+}
+.noticias {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+}
+.lista_noticias {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+}
+.title {
+    font-size: 25px;
+}
+.texto {
+    font-size: 16px;
+}
+.item {
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.image_home {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.links {
+    color: black;
+}
+
+.ajuda {
+    text-decoration: underline;
+    font-size: 22px;
+}
